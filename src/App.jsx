@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './components/Counter'
+import LoginForm from './components/LoginForm'
 
 function App() {
   
@@ -7,8 +8,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>Test</h1>
-        <Counter/>
+        
+        <LoginForm/>
        </div>
     </>
   )
