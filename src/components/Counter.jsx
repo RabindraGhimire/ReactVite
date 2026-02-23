@@ -10,10 +10,17 @@ function Counter(){
         }
     }
 
+    const handleIncrease=()=>{
+        if(count<20)
+        {
+            setCount(count+1);
+        }
+    }
+
     return(
         <div>
             <h2>Counter: {count}</h2>
-            <button onClick={()=>setCount(count+1)}>Increase</button>
+            <button onClick={handleIncrease} disabled={count==20}>Increase</button>
             <button onClick={handleDecrease} disabled={count==0}>Decrease</button>
         </div>
     )
