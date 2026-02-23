@@ -19,6 +19,7 @@ function Counter(){
 
     return(
         <div>
+            <h1>Testing CI CD</h1>
             <h2>Counter: {count}</h2>
             <button onClick={handleIncrease} disabled={count==20}>Increase</button>
             <button onClick={handleDecrease} disabled={count==0}>Decrease</button>
